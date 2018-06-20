@@ -1,6 +1,8 @@
 # Create-React-App with Game Tutorial And Router
 
+Just a basic create-react-app with game tutorial completed and router added.
 
+----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
