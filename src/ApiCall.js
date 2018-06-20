@@ -19,7 +19,7 @@ export default class ApiCall extends React.Component {
         }).then(data => {
             console.log(data);
             this.setState({
-                message: 'Post Title: ' + data.title
+                message: 'Post Title ' + data.id + ': ' + data.title
             });
         }).catch(err => {
             console.log("ERROR: " + err);

@@ -7,7 +7,7 @@ import App from './App'
 
   // ========================================
   
-  //ReactDOM.render(<Game />, document.getElementById("root"));
+  // ---- The main logic starts at App.js (this just pops the app into the page).
   
   ReactDOM.render((
     <BrowserRouter>
