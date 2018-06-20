@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom';
 import Game from './game';
+import ApiCall from './ApiCall';
 
 const App = () => (
     <div className='app'>
@@ -15,8 +16,8 @@ const Navigation = () => (
     <nav>
       <ul>
         <li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
-        <li><NavLink exact activeClassName="current" to='/about'>About</NavLink></li>
-        <li><NavLink exact activeClassName="current" to='/contact'>Contact</NavLink></li>
+        <li><NavLink exact activeClassName="current" to='/api'>Api Call</NavLink></li>
+        <li><NavLink exact activeClassName="current" to='/contact'>Another page</NavLink></li>
         <li><NavLink exact activeClassName="current" to='/game'>Game</NavLink></li>
       </ul>
     </nav>
@@ -53,7 +54,7 @@ const Navigation = () => (
   const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}></Route>
-      <Route exact path='/about' component={About}></Route>
+      <Route exact path='/api' component={ApiCall}></Route>
       <Route exact path='/contact' component={Contact}></Route>
       <Route exact path='/game' component={Game}></Route>
     </Switch>
