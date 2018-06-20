@@ -2,6 +2,8 @@
 
 Just a basic create-react-app with game tutorial completed and router added.
 
+- Use `npm install`, then `npm start` to run it
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
