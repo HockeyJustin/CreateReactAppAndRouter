@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import {Square, Board} from './indexComponents'
+import {Square, Board} from './BoardAndComponents'
 import _ from 'underscore';
 
 
